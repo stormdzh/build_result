@@ -1,0 +1,137 @@
+timestatus.o: timestatus.c ../config.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/assert.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/cdefs.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/cdefs_elf.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/android/api-level.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/time.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/time.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/types.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stddef.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stdint.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/stdint.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/machine/wchar_limits.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/types.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm/types.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm-generic/types.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm-generic/int-ll64.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm/bitsperlong.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm-generic/bitsperlong.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/posix_types.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/stddef.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/compiler.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm/posix_types.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm-generic/posix_types.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/sysmacros.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/time.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/xlocale.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/string.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/malloc.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/stdlib.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/alloca.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/strings.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/memory.h \
+ ../include/lame.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stdarg.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/stdio.h \
+ main.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/limits.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/syslimits.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/limits.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/limits.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/limits.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/syslimits.h \
+ get_audio.h lametime.h timestatus.h brhist.h console.h
+
+../config.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/assert.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/cdefs.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/cdefs_elf.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/android/api-level.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/time.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/time.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/types.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stddef.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stdint.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/stdint.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/machine/wchar_limits.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/types.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm/types.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm-generic/types.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm-generic/int-ll64.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm/bitsperlong.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm-generic/bitsperlong.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/posix_types.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/stddef.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/compiler.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm/posix_types.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm-generic/posix_types.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/sysmacros.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/time.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/xlocale.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/string.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/malloc.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/stdlib.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/alloca.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/strings.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/memory.h:
+
+../include/lame.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stdarg.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/stdio.h:
+
+main.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/limits.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/syslimits.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/limits.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/limits.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/limits.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/syslimits.h:
+
+get_audio.h:
+
+lametime.h:
+
+timestatus.h:
+
+brhist.h:
+
+console.h:

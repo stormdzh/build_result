@@ -1,0 +1,239 @@
+bitstream.lo: bitstream.c ../config.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/stdlib.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/cdefs.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/cdefs_elf.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/android/api-level.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stddef.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/string.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/malloc.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/xlocale.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/alloca.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/strings.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/types.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stdint.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/stdint.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/machine/wchar_limits.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/types.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm/types.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm-generic/types.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm-generic/int-ll64.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm/bitsperlong.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm-generic/bitsperlong.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/posix_types.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/stddef.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/compiler.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm/posix_types.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm-generic/posix_types.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/sysmacros.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/memory.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/stdio.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stdarg.h \
+ ../include/lame.h machine.h version.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/assert.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/math.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/limits.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/syslimits.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/limits.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/limits.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/limits.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/syslimits.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/ctype.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/errno.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/errno.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm/errno.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm-generic/errno.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm-generic/errno-base.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/fcntl.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/fadvise.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/fcntl.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm/fcntl.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm-generic/fcntl.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/uio.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/unistd.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/select.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/time.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/time.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/signal.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm/sigcontext.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/signal.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm/signal.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm-generic/signal-defs.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm/siginfo.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm-generic/siginfo.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/ucontext.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/user.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/sysconf.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/pathconf.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/stat.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/stat.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/endian.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/endian.h \
+ /home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/inttypes.h \
+ encoder.h util.h l3side.h id3tag.h lame_global_flags.h tables.h \
+ quantize_pvt.h gain_analysis.h VbrTag.h bitstream.h
+
+../config.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/stdlib.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/cdefs.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/cdefs_elf.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/android/api-level.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stddef.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/string.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/malloc.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/xlocale.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/alloca.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/strings.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/types.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stdint.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/stdint.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/machine/wchar_limits.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/types.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm/types.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm-generic/types.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm-generic/int-ll64.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm/bitsperlong.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm-generic/bitsperlong.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/posix_types.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/stddef.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/compiler.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm/posix_types.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm-generic/posix_types.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/sysmacros.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/memory.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/stdio.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include/stdarg.h:
+
+../include/lame.h:
+
+machine.h:
+
+version.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/assert.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/math.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/limits.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.9.x/include-fixed/syslimits.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/limits.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/limits.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/limits.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/syslimits.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/ctype.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/errno.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/errno.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm/errno.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm-generic/errno.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm-generic/errno-base.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/fcntl.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/fadvise.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/fcntl.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm/fcntl.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm-generic/fcntl.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/uio.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/unistd.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/select.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/time.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/time.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/signal.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm/sigcontext.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/signal.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm/signal.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm-generic/signal-defs.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm/siginfo.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/asm-generic/siginfo.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/ucontext.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/user.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/sysconf.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/pathconf.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/stat.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/linux/stat.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/endian.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/sys/endian.h:
+
+/home/storm/plagin/ndk/android-ndk-r14b/platforms/android-21/arch-arm/usr/include/inttypes.h:
+
+encoder.h:
+
+util.h:
+
+l3side.h:
+
+id3tag.h:
+
+lame_global_flags.h:
+
+tables.h:
+
+quantize_pvt.h:
+
+gain_analysis.h:
+
+VbrTag.h:
+
+bitstream.h:
